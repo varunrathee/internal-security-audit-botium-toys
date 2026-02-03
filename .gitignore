@@ -1,0 +1,62 @@
+# ================================
+# OS & Editor files
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ================================
+# Temporary & Backup files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.old
+*.log
+
+# ================================
+# Sensitive / Secret files
+# ================================
+.env
+*.env
+*.key
+*.pem
+*.crt
+*.pfx
+*.keystore
+secrets/
+credentials/
+
+# ================================
+# Raw security data (DO NOT COMMIT)
+# ================================
+pcap/
+*.pcap
+*.pcapng
+raw-logs/
+live-logs/
+
+# ================================
+# Draft or internal reports
+# ================================
+reports/drafts/
+reports/tmp/
+
+# ================================
+# Language / runtime artifacts
+# (future-proofing)
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+node_modules/
+
+# ================================
+# Private documentation
+# ================================
+docs/private/
